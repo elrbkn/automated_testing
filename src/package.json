@@ -4,5 +4,8 @@
   "description": "Automated testing project",
   "main": "src/app.js",
   "type": "module",
-  "author": "Rybkina Elena"
+  "author": "Rybkina Elena",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
