@@ -1,4 +1,4 @@
-export const capitalize = (text) => {
+const capitalize = (text) => {
   if (text === '') {
     return '';
   }
@@ -6,5 +6,7 @@ export const capitalize = (text) => {
   const restSubstring = text.slice(1);
   return `${firstChar}${restSubstring}`;
 };
+
+export default capitalize;
 
 
