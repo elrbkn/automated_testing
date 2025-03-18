@@ -1,0 +1,46 @@
+# Node.js зависимости
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+*.out
+*.err
+
+# Конфигурационные файлы окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Кэш и сборки
+dist/
+build/
+coverage/
+.nyc_output/
+.jest/
+cypress/videos/
+cypress/screenshots/
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Git файлы
+.git/
