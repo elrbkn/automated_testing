@@ -1,0 +1,8 @@
+{
+  "name": "automated_testing",
+  "version": "1.0.0",
+  "description": "Automated testing project",
+  "main": "src/app.js",
+  "type": "module",
+  "author": "Rybkina Elena"
+}
