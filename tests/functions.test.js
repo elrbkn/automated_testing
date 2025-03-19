@@ -1,17 +1,24 @@
+import assert from 'node:assert';
 import getFunction from '../src/functions.js';
 
 const get = getFunction();
 
-if (get({ key: 'value' }, 'key') !== 'value') {
-  throw new Error('Функция работает неверно!');
-}
+assert.strictEqual(
+  get({ key: 'value' }, 'key'),
+  'value',
+  'Ошибка: Функция должна возвращать значение по существующему ключу'
+);
 
-if (get({ key: 'value' }, 'key', 'defualtValue') !== 'value') {
-  throw new Error('Функция работает неверно!');
-}
+assert.strictEqual(
+  get({ key: 'value' }, 'key', 'defaultValue'),
+  'value',
+  'Ошибка: Функция должна возвращать значение по существующему ключу, игнорируя значение по умолчанию'
+);
 
-if (get({}, 'key', 'value') !== 'value') {
-  throw new Error('Функция работает неверно!');
-}
+assert.strictEqual(
+  get({}, 'key', 'defaultValue'),
+  'defaultValue',
+  'Ошибка: Функция должна возвращать значение по умолчанию для несуществующего ключа'
+);
 
 console.log('Все тесты пройдены!');
