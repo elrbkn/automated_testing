@@ -11,5 +11,8 @@
   "scripts": {
     "test:capitalize": "node ../tests/capitalize.test.js",
     "test:functions": "node ../tests/functions.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
