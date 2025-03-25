@@ -9,6 +9,7 @@
     "lodash": "^4.17.21"
   },
   "scripts": {
+    "test": "node --experimental-vm-modules ./automated_testing/src/node_modules/.bin/jest",
     "test:capitalize": "node ../tests/capitalize.test.js",
     "test:functions": "node ../tests/functions.test.js"
   },
