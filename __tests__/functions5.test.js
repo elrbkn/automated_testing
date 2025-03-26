@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-import getFunction from '../functions.js';
+import getFunction from '../src/functions.js';
 
 const set = getFunction();
 
