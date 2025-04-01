@@ -1,5 +1,5 @@
 {
-  "name": "automated_testing",
+  "0name": "automated_testing",
   "version": "1.0.0",
   "description": "Automated testing project",
   "main": "src/app.js",
@@ -9,7 +9,7 @@
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "test": "node --experimental-vm-modules ./automated_testing/src/node_modules/.bin/jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage",
     "test:capitalize": "node ../tests/capitalize.test.js",
     "test:functions": "node ../tests/functions.test.js"
   },
