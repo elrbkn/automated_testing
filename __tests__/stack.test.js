@@ -1,4 +1,5 @@
 import makeStack from '../src/stack.js';
+import { expect, test } from '@jest/globals';
 
 test("stack's main flow", () => {
   const stack = makeStack();

@@ -1,6 +1,6 @@
 import _ from 'lodash';
-
 import getFunction from '../src/functions.js';
+import { expect, test } from '@jest/globals';
 
 const set = getFunction();
 

@@ -1,4 +1,5 @@
 import getFunction from '../src/functions4.js';
+import { expect, test } from '@jest/globals';
 
 const gt = getFunction();
 

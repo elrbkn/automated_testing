@@ -1,4 +1,5 @@
 import getFunction from '../src/functions.js';
+import { expect, test } from '@jest/globals';
 
 const without = getFunction();
 
